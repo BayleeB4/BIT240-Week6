@@ -25,6 +25,12 @@
     left: 50%;
 }
 
+.attackPotion{
+	width: 20%;
+	margin-bottom: 5px;
+}
+
+
 .continueShop{
     width: 20%;
 }
