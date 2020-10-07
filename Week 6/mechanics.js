@@ -83,7 +83,7 @@
 	
 	function drinkPotion(){
 		// Drink Potion
-		if(player_health < player_health_max && player_potions >= 1){
+		if(player_health < 100 && player_potions >= 1){
 			this.player_health = player_health + 10 > 100 ? 100 : player_health += 10;
 			this.player_potions--;
 			showPlayerStats = document.getElementById("playerStats").innerHTML = "Player: " + player_name 
